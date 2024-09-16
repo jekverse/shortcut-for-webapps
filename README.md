@@ -2,23 +2,22 @@
 
 ### For Linux Users Only! 🐧
 
-Welcome to **WebApp Shortcut Creator**, your one-stop solution for turning your favorite web apps (like YouTube, Gmail, or even that random cat video site you keep visiting) into easily accessible shortcuts in your Linux menu. No more typing URLs over and over – because, let's face it, we're all too lazy for that! 😄
+Welcome to **WebApp Shortcut Creator**, your one-stop solution for turning your favorite web apps (like YouTube, Gmail, or even that random memes video site you keep visiting) into easily accessible shortcuts in your Linux menu. No more typing URLs over and over – because, let's face it, we're all too lazy for that! 😄
 
 ## What’s This For? 🤔
-This repository is **exclusively for Linux users** (sorry, Windows and macOS folks!) who want to create shortcuts for web apps that show up in your application menu. Now, you can launch your favorite websites right from the menu, like they’re proper desktop apps. Fancy, huh?
+This repository is **exclusively for Linux users** (sorry, Windows and macOS folks!) who want to create shortcuts for web apps that show up in your application menu. Now, you can launch your favorite websites right from the menu, like they’re proper desktop apps. 
 
 ## How to Use It? 🛠️
 It's **super easy** to use. Just follow these three simple steps:
 
 1. **Clone the repo** (like every GitHub project ever):
     ```bash
-    gh repo clone 
     git clone https://github.com/jekverse/shortcut-for-webapps.git
     ```
 
 2. **Enter the directory**:
     ```bash
-    cd shortcut-for-webapps.git
+    cd shortcut-for-webapps
     ```
 
 3. **Run the setup script**:
