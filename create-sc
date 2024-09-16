@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import os
+
+def create_desktop_entry(app_name, app_url):
+    desktop_entry_content = f"""
+[Desktop Entry]
+Version=1.0
+Name={app_name}
+Comment=Browser App
+Exec=xdg-open {app_url}
+Icon=web-browser
+Terminal=false
+Type=Application
+"""
+
+    desktop_file_path = os.path.expanduser(f"~/.local/share/applications/{app_name}.desktop")
+
+    with open(desktop_file_path, 'w') as file:
+        file.write(desktop_entry_content.strip())
+
+    print(f"Sip.. File Shortcut telah dibuat.")
+
+if __name__ == "__main__":
+    # Input dari pengguna
+    app_name = input("Masukkan nama aplikasi: ")
+    app_url = input("Masukkan URL aplikasi: ")
+
+    create_desktop_entry(app_name, app_url)
